@@ -1,0 +1,28 @@
+VERSION 1.0 CLASS
+BEGIN
+  MultiUse = -1  'True
+END
+Attribute VB_Name = "Sheet1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = True
+Private Sub CommandButton1_Click()
+FetchDataFromNotepad
+End Sub
+
+Private Sub CommandButton2_Click()
+ClearData
+End Sub
+
+Private Sub CommandButton3_Click()
+AddData
+End Sub
+
+Private Sub CommandButton4_Click()
+SaveResult
+End Sub
+
+Private Sub CommandButton5_Click()
+RemoveData
+End Sub
